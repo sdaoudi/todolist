@@ -2,6 +2,6 @@ version: "3.8"
 services:
   web:
     build: .
-    ports:
-      - "80:80"
+    expose:
+      - "80"
     restart: unless-stopped
