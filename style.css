@@ -7,17 +7,17 @@
 }
 
 :root {
-    --bg: #0f0f11;
-    --surface: #1a1a2e;
-    --surface-hover: #222240;
+    --bg: #f5f5f7;
+    --surface: #ffffff;
+    --surface-hover: #f0f0f5;
     --primary: #6c63ff;
     --primary-hover: #5a52d5;
-    --text: #e4e4e7;
-    --text-muted: #71717a;
+    --text: #1a1a2e;
+    --text-muted: #6b7280;
     --danger: #ef4444;
     --danger-hover: #dc2626;
     --success: #22c55e;
-    --border: #27273a;
+    --border: #e2e4e9;
     --radius: 12px;
 }
 
@@ -45,7 +45,7 @@ header h1 {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: -0.5px;
-    background: linear-gradient(135deg, var(--primary), #a78bfa);
+    background: linear-gradient(135deg, var(--primary), #8b5cf6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -73,6 +73,7 @@ header h1 {
     color: var(--text);
     font-size: 0.95rem;
     outline: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
     transition: border-color 0.2s;
 }
 
@@ -150,6 +151,7 @@ header h1 {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
     transition: all 0.2s;
     animation: slideIn 0.25s ease;
 }
