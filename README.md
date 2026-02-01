@@ -37,3 +37,7 @@ docker build -t todolist .
 docker-compose up -d
 ```
 
+
+---
+
+**Dernière mise à jour :** 2026-02-01 02:36
